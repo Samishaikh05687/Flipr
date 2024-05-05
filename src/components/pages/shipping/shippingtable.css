@@ -1,0 +1,37 @@
+/* CustomerTable.css */
+
+.container {
+    width: 100%;
+    overflow-x: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  }
+
+  
+.container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-header {
+    background-color: #f8f9fa;
+  }
+  
+  .table-row {
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  th, td {
+    padding: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .table th, .table td {
+      font-size: 14px;
+    }
+  }
+  
